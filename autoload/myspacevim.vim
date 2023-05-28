@@ -7,7 +7,9 @@ endfunction
 
 function! myspacevim#after() abort
   set wrap
+  set noswapfile
   set nobackup
+
   filetype indent on
   set autoindent
 endfunction
